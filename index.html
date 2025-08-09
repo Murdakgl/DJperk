@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Minimalní — Sety • Galerie • PERK</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg" aria-hidden="true"></div>
+  <div class="overlay" aria-hidden="true"></div>
+
+  <header class="nav">
+    <div class="brand">Matroking</div>
+    <nav>
+      <div class="menu" role="menubar" aria-label="Hlavní menu">
+        <a role="menuitem" href="#sety">Sety</a>
+        <a role="menuitem" href="#galerie">Galerie</a>
+        <a role="menuitem" class="perk" href="#perk">PERK</a>
+      </div>
+      <button class="hamburger" aria-label="Otevřít menu" id="hamburger">
+        <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="18" height="2" rx="1" y="0" fill="white" opacity="0.9"/><rect width="18" height="2" rx="1" y="10" fill="white" opacity="0.9"/></svg>
+      </button>
+      <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+        <a href="#sety">Sety</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#perk">PERK</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <section class="card">
+      <h1>Sety • Galerie • PERK</h1>
+      <p class="lead">Minimalistická moderní stránka s tmavým vzhledem a tvou fotkou jako pozadím. Menu reaguje na hover.</p>
+      <div class="note">DŮLEŽITÉ — doplň cestu k obrázku v <code>style.css</code> → <code>:root --bg-image</code> → nahraď <code>PATH_TO_YOUR_IMAGE.jpg</code></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
