@@ -1,5 +1,5 @@
 :root{
-  --bg-image: url('images/perk.png'); /* ZDE doplň cestu k tvé fotce */
+  --bg-image: url('images/perk.png'); 
   --bg-color: #0b0d10;
   --accent: #ff6b6b;
   --muted: rgba(255,255,255,0.6);
@@ -170,3 +170,4 @@ p.lead{margin:0; color:var(--muted); font-size:16px}
     grid-template-columns: 1fr;
   }
 }
+
